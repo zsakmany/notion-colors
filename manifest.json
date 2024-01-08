@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Notion colors",
+  "description": "Adds colors to notion components",
+  "version": "1.0",
+  "content_scripts": [
+    { "css": ["styles.css"], "matches": ["https://*.notion.so/*"] }
+  ]
+}
